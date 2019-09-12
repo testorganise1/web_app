@@ -1,0 +1,10 @@
+a=10
+b=20
+echo "the addition of a and b is " `expr $a + $b`
+echo "the subtraction of a and b is " `expr $b - $a`
+echo "the multiplication is "`expr $a * $b`
+echo "the division is " `expr $a / $b`
+echo "the didident is " `expr $b % $a`
+
+
+

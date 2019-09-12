@@ -1,0 +1,11 @@
+echo "please enter the value of a"
+read a
+echo "please enter the value of b"
+read b
+echo "please enter devops tools"
+read -a devopstools
+echo "display all tools" ${devopstools[*]}
+echo "display 2 tool" ${devopstools[2]}
+read -p "please enter name"
+read -sp "please enter"
+
