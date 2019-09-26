@@ -1,0 +1,8 @@
+echo "please enter the filename"
+read fn
+if [ -f $fn ]
+then
+echo "filename exits in directory"
+else 
+echo "filename does not exist"
+fi
